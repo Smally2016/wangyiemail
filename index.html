@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="../fullpage%20依赖文件/jquery.fullPage.css"/>
+    <link rel="stylesheet" href="../less/index.css"/>
+
+    <script src="../fullpage%20依赖文件/jquery-3.1.0.min.js"></script>
+    <script src="../fullpage%20依赖文件/jquery-ui.min.js"></script>
+    <script src="../fullpage%20依赖文件/jquery.fullPage.min.js"></script>
+
+    <script>
+        $(function(){
+            $.fn.fullpage({
+                anchors:['page1','page2','page3','page4','page5','page6'],
+//                slidesColor:['orange','green','pink','black'],
+                navigation:true,
+                navigationTooltips:['首页','第二页','第三页','第四页','第五页','第六页'],
+                controlArrowColor:"orange",
+                onLeave:function(index,direction){
+                    if(index==2){
+                        if(direction=="down"){
+                            $(".simp_detail").css("top","350px");
+                            $(".active .simp_detail").css("top","250px");
+                            $(".bg23").css("bottom","-170px");
+                            $(".active .bg23").css("bottom","-70px");
+                            $(".bg21").css("left","180px");
+                            $(".active .bg21").css("left","80px");
+                            $(".bg22").css("right","230px");
+                            $(".active .bg22").css("right","130px");
+                        }
+                    }
+                    if(index==3){
+                        if(direction=="down"){
+                            $(".bg33").css("right","0px");
+                            $(".active .bg33").css("right","250px");
+                            $(".view_detail").css("left","-150px");
+                            $(".active .view_detail").css("left","150px");
+                            $(".simp_detail").css("top","150px");
+                            $(".active .simp_detail").css("top","250px");
+                            $(".bg23").css("bottom","30px");
+                            $(".active .bg23").css("bottom","-70px");
+                            $(".bg21").css("left","0");
+                            $(".active .bg21").css("left","80px");
+                            $(".bg22").css("right","30px");
+                            $(".active .bg22").css("right","130px");
+                        }
+                        else{
+                            $(".simp_detail").css("top","350px");
+                            $(".active .simp_detail").css("top","250px");
+                            $(".bg23").css("bottom","-170px");
+                            $(".active .bg23").css("bottom","-70px");
+                            $(".bg21").css("left","180px");
+                            $(".active .bg21").css("left","80px");
+                            $(".bg21").css("left","180px");
+                            $(".active .bg21").css("left","80px");
+                            $(".bg22").css("right","230px");
+                            $(".active .bg22").css("right","130px");
+                        }
+                    }
+                    if(index==4){
+                        if(direction=="down"){
+                            $(".bg33").css("right","480px");
+                            $(".active .bg33").css("right","250px")
+                            $(".view_detail").css("left","400px");
+                            $(".active .view_detail").css("left","150px");
+                            $(".skin_detail").css("top","400px");
+                            $(".active .skin_detail").css("top","240px");
+                            $(".bg42").css("bottom","-200px");
+                            $(".active .bg42").css("bottom","-100px")
+                        }
+                        else{
+                            $(".bg33").css("right","0px");
+                            $(".active .bg33").css("right","250px");
+                            $(".view_detail").css("left","-150px");
+                            $(".active .view_detail").css("left","150px");
+                            $(".simp_detail").css("top","150px");
+                            $(".active .simp_detail").css("top","250px");
+                            $(".bg23").css("bottom","30px");
+                            $(".active .bg23").css("bottom","-70px");
+                            $(".bg21").css("left","0");
+                            $(".active .bg21").css("left","80px");
+                            $(".bg22").css("right","30px");
+                            $(".active .bg22").css("right","130px");
+                        }
+                    }
+                    if(index==5){
+                        if(direction=="up"){
+                            $(".bg33").css("right","480px");
+                            $(".active .bg33").css("right","250px");
+                            $(".view_detail").css("left","400px");
+                            $(".active .view_detail").css("left","150px");
+                            $(".skin_detail").css("top","400px");
+                            $(".active .skin_detail").css("top","240px");
+                            $(".bg42").css("bottom","-200px");
+                            $(".active .bg42").css("bottom","-100px")
+                        }
+                        else{
+                            $(".skin_detail").css("top","100px");
+                            $(".active .skin_detail").css("top","240px");
+                            $(".bg42").css("bottom","100px");
+                            $(".active .bg42").css("bottom","-100px")
+                        }
+                    }
+                    if(index==6){
+                        if(direction=="up"){
+                            $(".skin_detail").css("top","100px");
+                            $(".active .skin_detail").css("top","240px");
+                            $(".bg42").css("bottom","100px");
+                            $(".active .bg42").css("bottom","-100px")
+                        }
+                    }
+            }
+//                if(onLeave[1]==)
+            })
+        })
+    </script>
+</head>
+<body>
+<div id="fullpage">
+    <div class="section sec1">
+        <!-- 背景图-->
+        <div class="bcgd"><img src="../../images/images/section1.jpg" alt=""/></div>   
+        <!-- 邮箱图 两个-->
+        <div class="bg13"></div>
+        <div class="bg12"></div>
+        <!-- 邮箱logo-->
+        <div class="mail">
+            <a href="#" class="mail-163">163邮箱</a>
+            <a href="#" class="mail-126">126邮箱</a>
+            <a href="#" class="mail-yeah">yeah邮箱</a>
+        </div>
+        <div class="hgroup">
+            <h1>网易邮箱6.0</h1>
+            <h2></h2>
+        </div>
+    </div>
+    <div class="section sec2">
+        <div class="bcgd"><img src="../../images/images/section2.jpg" alt=""/></div>
+
+    </div>
+    <div class="section sec3">
+        <div class="bcgd"><img src="../../images/images/section2.jpg" alt=""/></div>
+        <div class="bg21"></div>
+        <div class="bg23"></div>
+        <div class="bg22"></div>
+        <p class="simp_des">[ 视觉·简 ]</p>
+        <div class="simp_logo"></div>
+        <div class="simp_detail">
+            <span>秉承网易邮箱经典的清新简洁的设计风格，邮箱6.0版带来全新一代的设计理念，更追求极致唯美的视觉设计、传承更多人文和艺术底蕴，华丽蜕变，带来更舒服更爽心悦目的视觉享受。</span>
+        </div>
+    </div>
+    <div class="section sec4">
+        <!-- 设置背景图片-->
+        <div class="bcgd"><img src="../../images/images/section3.jpg" alt=""/></div>
+        <p class="view_des">[ 视觉化交互设计 ]</p>
+        <div class="view_logo"></div>
+        <div class="bg31"></div>
+        <div class="bg33"></div>
+        <div class="view_detail">
+            <span>邮箱6.0版采用了全新的视觉化交互设计，通过对界面的整体风格设计、重要信息的
+            视觉化处理以及元素本身的视觉传达优化，来实现产品流程设计和交互行为塑造。
+            从视觉的角度出发，让用户无需多想，想直接通过感官与产品进行交互。</span>
+        </div>
+    </div>
+    <div class="section sec5">
+        <div class="bcgd"><img src="../../images/images/section4.jpg" alt=""/></div>
+        <div class="bg41"></div>
+        <div class="bg42"></div>
+        <div class="bg43"></div>
+        <p class="skin_dymc">[ 动态情景皮肤 ]</p>
+        <div class="skin_logo"></div>
+        <div class="skin_detail">
+            <span>国内首创动态情景皮肤，可以随着早晚时光，季节主题的变幻而自动切换
+            ，实现了在邮箱里也能感受天气和心情的变化，带来完全不同的页面体验并且呈现
+            最佳视觉感受，还特别针对原有邮箱皮肤的对比度和色彩进行了微调，减少视觉疲劳感。</span>
+        </div>
+    </div>
+    <div class="section sec6">第四屏</div>
+</div>
+</body>
+</html>
