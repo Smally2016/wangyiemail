@@ -10,7 +10,7 @@
   float: right;
   width: 20px;
   height: 20px;
-  background-image: url("../../images/images/dot.png");
+  background-image: url("../images/images/dot.png");
   background-position: 5px 5px;
   background-repeat: no-repeat;
 }
@@ -47,7 +47,7 @@
   bottom: -292px;
   width: 100%;
   height: 392px;
-  background-image: url("../../images/images/bg12.png");
+  background-image: url("../images/images/bg12.png");
   background-position: 50% 0;
   background-repeat: no-repeat;
   opacity: 0;
@@ -58,7 +58,7 @@
   bottom: -377px;
   width: 100%;
   height: 377px;
-  background-image: url("../../images/images/bg13.png");
+  background-image: url("../images/images/bg13.png");
   background-position: 50% 0;
   background-repeat: no-repeat;
   transition: all 1s;
@@ -70,7 +70,7 @@
   width: 375px;
   height: 26px;
   margin-left: -187px;
-  background-image: url("../../images/images/logo.png");
+  background-image: url("../images/images/logo.png");
   transition: all 1s;
   text-indent: -9999px;
 }
@@ -99,7 +99,7 @@
   height: 176px;
   width: 100%;
   text-indent: -9999px;
-  background-image: url("../../images/images/slogan.png");
+  background-image: url("../images/images/slogan.png");
   transform: scale(0.3);
   opacity: 0;
   transition: all 1s;
@@ -118,7 +118,7 @@
   left: 180px;
   width: 233px;
   height: 250px;
-  background-image: url("../../images/images/bg21.png");
+  background-image: url("../images/images/bg21.png");
   transition: all 1s;
   opacity: 0;
 }
@@ -138,7 +138,7 @@
   right: 230px;
   width: 211px;
   height: 299px;
-  background-image: url("../../images/images/bg22.png");
+  background-image: url("../images/images/bg22.png");
   opacity: 0;
   transition: all 1s;
 }
@@ -157,7 +157,7 @@
   top: 180px;
   width: 513px;
   height: 45px;
-  background-image: url("../../images/images/t2.png");
+  background-image: url("../images/images/t2.png");
 }
 .sec3 .simp_detail {
   position: absolute;
@@ -193,7 +193,7 @@
   top: 180px;
   width: 513px;
   height: 45px;
-  background-image: url("../../images/images/t3.png");
+  background-image: url("../images/images/t3.png");
 }
 .sec4 .bg31 {
   position: absolute;
@@ -201,7 +201,7 @@
   left: 400px;
   width: 892px;
   height: 472px;
-  background-image: url("../../images/images/bg31.png");
+  background-image: url("../images/images/bg31.png");
   background-position: 50% 0;
   background-repeat: no-repeat;
   opacity: 0;
@@ -213,7 +213,7 @@
   right: 0;
   width: 441px;
   height: 380px;
-  background-image: url("../../images/images/bg33.png");
+  background-image: url("../images/images/bg33.png");
   transition: all 0.5s;
   opacity: 0;
 }
@@ -242,7 +242,7 @@
   bottom: -100px;
   width: 1228px;
   height: 372px;
-  background-image: url("../../images/images/bg41.png");
+  background-image: url("../images/images/bg41.png");
 }
 .sec5 .bg42 {
   position: absolute;
@@ -252,7 +252,7 @@
   height: 449px;
   opacity: 0;
   transition: all 1s;
-  background-image: url("../../images/images/bg42.png");
+  background-image: url("../images/images/bg42.png");
 }
 .sec5 .bg43 {
   position: absolute;
@@ -260,7 +260,7 @@
   bottom: 0;
   width: 1019px;
   height: 248px;
-  background-image: url("../../images/images/bg43.png");
+  background-image: url("../images/images/bg43.png");
 }
 .sec5 .skin_dymc {
   display: inline-block;
@@ -277,7 +277,7 @@
   top: 180px;
   width: 512px;
   height: 45px;
-  background-image: url("../../images/images/t4.png");
+  background-image: url("../images/images/t4.png");
 }
 .sec5 .skin_detail {
   position: absolute;
